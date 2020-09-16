@@ -89,7 +89,7 @@ int main()
 	// to store the distance between two points
 	double distance;
 
-	double mydouble = ConsoleInput::ReadDouble();
+	//double mydouble = ConsoleInput::ReadDouble();
 	try
 	{
 		// Input
@@ -118,7 +118,7 @@ int main()
 		// Show the points and the distance
 		cout << fixed << setprecision(3); // formatting
 		cout << "\nThe distance between " << origin.ToString()
-			<< " and " << destination.ToString() << " is " << distance;
+			<< " and " << destination.ToString() << " is " << distance << ". " << endl;
 
 	}
 
